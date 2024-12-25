@@ -1,0 +1,114 @@
+body {
+  position: relative;
+  background-color: #218380;
+}
+.main {
+  top: 60px;
+  left: 278px;
+  height: 295px;
+  width: 300px;
+  background-color: #73d2de;
+  position: absolute;
+}
+.row1 {
+  width: 300;
+  height: 100;
+}
+.row2 {
+  width: 300;
+  height: 100;
+}
+.row3 {
+  width: 300;
+  height: 100;
+}
+.col11 {
+  height: 100px;
+  width: 100px;
+  float: left;
+  text-align: center;
+}
+.col12 {
+  height: 100px;
+  width: 100px;
+  float: left;
+  text-align: center;
+}
+.col13 {
+  height: 100px;
+  width: 100px;
+  float: left;
+  text-align: center;
+}
+.col21 {
+  height: 100px;
+  width: 100px;
+  float: left;
+  text-align: center;
+}
+.col22 {
+  height: 100px;
+  width: 100px;
+  float: left;
+  text-align: center;
+}
+.col23 {
+  height: 100px;
+  width: 100px;
+  float: left;
+  text-align: center;
+}
+.col31 {
+  height: 100px;
+  width: 100px;
+  float: left;
+  text-align: center;
+}
+.col32 {
+  height: 100px;
+  width: 100px;
+  float: left;
+  text-align: center;
+}
+.col33 {
+  height: 100px;
+  width: 100px;
+  float: left;
+  text-align: center;
+}
+.b11 {
+  height: 95px;
+  width: 95px;
+}
+.b12 {
+  height: 95px;
+  width: 95px;
+}
+.b13 {
+  height: 95px;
+  width: 95px;
+}
+.b21 {
+  height: 95px;
+  width: 95px;
+}
+.b22 {
+  height: 95px;
+  width: 95px;
+}
+.b23 {
+  height: 95px;
+  width: 95px;
+}
+.b31 {
+  height: 95px;
+  width: 95px;
+}
+.b32 {
+  height: 95px;
+  width: 95px;
+}
+.b33 {
+  height: 95px;
+  width: 95px;
+}
