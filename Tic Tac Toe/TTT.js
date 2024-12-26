@@ -24,7 +24,7 @@ boxes.forEach((box) => {
     checkWinner();
     // if (boxes.every((box) => box.disabled === true)) {
     //   document.getElementById("message").innerText = "It's a Draw";
-    // }
+    // } draw message to be added
   });
 });
 let resetGame = () => {
