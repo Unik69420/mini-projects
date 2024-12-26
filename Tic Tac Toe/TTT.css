@@ -1,114 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  position: relative;
+  text-align: center;
   background-color: #218380;
 }
-.main {
-  top: 60px;
-  left: 278px;
-  height: 295px;
-  width: 300px;
-  background-color: #73d2de;
-  position: absolute;
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.row1 {
-  width: 300;
-  height: 100;
+.game {
+  height: 60vh;
+  width: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
-.row2 {
-  width: 300;
-  height: 100;
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 20px;
+  border: none;
+  font-size: 50px;
+  background-color: white;
+  color: black;
 }
-.row3 {
-  width: 300;
-  height: 100;
+.reset {
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
 }
-.col11 {
-  height: 100px;
-  width: 100px;
-  float: left;
-  text-align: center;
+#message {
+  font-size: 25px;
+  color: yellow;
 }
-.col12 {
-  height: 100px;
-  width: 100px;
-  float: left;
-  text-align: center;
-}
-.col13 {
-  height: 100px;
-  width: 100px;
-  float: left;
-  text-align: center;
-}
-.col21 {
-  height: 100px;
-  width: 100px;
-  float: left;
-  text-align: center;
-}
-.col22 {
-  height: 100px;
-  width: 100px;
-  float: left;
-  text-align: center;
-}
-.col23 {
-  height: 100px;
-  width: 100px;
-  float: left;
-  text-align: center;
-}
-.col31 {
-  height: 100px;
-  width: 100px;
-  float: left;
-  text-align: center;
-}
-.col32 {
-  height: 100px;
-  width: 100px;
-  float: left;
-  text-align: center;
-}
-.col33 {
-  height: 100px;
-  width: 100px;
-  float: left;
-  text-align: center;
-}
-.b11 {
-  height: 95px;
-  width: 95px;
-}
-.b12 {
-  height: 95px;
-  width: 95px;
-}
-.b13 {
-  height: 95px;
-  width: 95px;
-}
-.b21 {
-  height: 95px;
-  width: 95px;
-}
-.b22 {
-  height: 95px;
-  width: 95px;
-}
-.b23 {
-  height: 95px;
-  width: 95px;
-}
-.b31 {
-  height: 95px;
-  width: 95px;
-}
-.b32 {
-  height: 95px;
-  width: 95px;
-}
-.b33 {
-  height: 95px;
-  width: 95px;
-}
+
