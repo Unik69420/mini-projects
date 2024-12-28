@@ -5,7 +5,7 @@
 
 body {
   text-align: center;
-  background-color: #218380;
+  background-color: var(--primary-color);
 }
 .container {
   height: 70vh;
@@ -40,4 +40,21 @@ body {
   font-size: 25px;
   color: yellow;
 }
-
+#icon {
+  width: 30px;
+  cursor: pointer;
+  position: fixed;
+  right: 90px;
+  top: 8px;
+}
+h1 {
+  color: var(--secondary-color);
+}
+:root {
+  --primary-color: rgb(175, 179, 149);
+  --secondary-color: black;
+}
+.dark-theme {
+  --primary-color: #000000;
+  --secondary-color: white;
+}
