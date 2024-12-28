@@ -20,34 +20,36 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
 }
 .box {
   height: 18vmin;
   width: 18vmin;
   border-radius: 20px;
   border: none;
-  font-size: 50px;
+  font-size: 60px;
   background-color: white;
   color: black;
 }
-.reset {
+button {
   padding: 5px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: none;
+  font-size: 25px;
 }
 #message {
-  font-size: 25px;
+  font-size: 45px;
   color: yellow;
 }
 #icon {
-  width: 30px;
+  width: 60px;
   cursor: pointer;
   position: fixed;
   right: 90px;
   top: 8px;
 }
 h1 {
+  font-size: 60px;
   color: var(--secondary-color);
 }
 :root {
