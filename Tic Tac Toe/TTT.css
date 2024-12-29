@@ -60,3 +60,59 @@ h1 {
   --primary-color: #000000;
   --secondary-color: white;
 }
+@media (max-width: 768px) {
+  .game {
+    height: 50vh;
+    width: 50vh;
+    gap: 6px;
+  }
+  .box {
+    height: 20vw;
+    width: 20vw;
+    font-size: 45px;
+  }
+  button {
+    font-size: 20px;
+  }
+  #message {
+    font-size: 35px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  #icon {
+    right: 50px;
+    width: 50px;
+  }
+}
+
+/* For mobile devices (max width: 480px) */
+@media (max-width: 480px) {
+  .game {
+    height: 40vh;
+    width: 40vh;
+    gap: 4px;
+  }
+  .box {
+    height: 22vw;
+    width: 22vw;
+    font-size: 30px;
+  }
+  button {
+    font-size: 18px;
+    padding: 3px;
+  }
+  #message {
+    font-size: 25px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  #icon {
+    right: 10px;
+    width: 40px;
+  }
+  #reset {
+    font-size: 20px;
+  }
+}
