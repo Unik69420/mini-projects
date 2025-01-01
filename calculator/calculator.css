@@ -48,7 +48,7 @@ button {
   grid-template-columns: repeat(3, 1fr);
 }
 .equal {
-  width: 220px;
+  width: 211px;
 }
 button:hover {
   background-color: hsl(0, 0%, 40%);
@@ -64,4 +64,113 @@ button:active {
 }
 .special:active {
   background-color: hsl(43, 80%, 50%);
+}
+
+/* @media (min-width: 412px) {
+  .calculator {
+    background: #34465f;
+    border-radius: 10px;
+    width: 350px;
+    overflow: hidden;
+    border: 2px solid rgb(56, 55, 55);
+    height: 550px;
+  }
+  #display {
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+    font-size: 3rem;
+    text-align: left;
+    border: none;
+    background-color: #4e5560;
+    color: #fff;
+  }
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    color: white;
+    gap: 5px;
+  }
+  button {
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: -8px -8px 15px rgba(78, 79, 80, 0.1);
+    background-color: hsl(0, 0%, 30%);
+    font-size: 30px;
+    margin: 0px;
+    padding: 0;
+    cursor: pointer;
+    border: 1px solid rgb(42, 69, 74);
+  }
+  .lower {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    gap: 5px;
+  }
+  .equal {
+    width: 165px;
+  }
+} */
+
+/* Media Query for screens with max-width 420px */
+@media (max-width: 430px) {
+  button {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    margin: 15px;
+  }
+  #display {
+    font-size: 4rem;
+    padding: 15px;
+  }
+  .equal {
+    width: 179px;
+  }
+  .lower {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+  }
+}
+
+/* Media Query for screens with max-width 360px */
+@media (max-width: 376px) {
+  button {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin: 10px;
+  }
+  #display {
+    font-size: 3.5rem;
+    padding: 10px;
+  }
+  .equal {
+    width: 160px;
+  }
+  .lower {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+  }
+}
+@media (max-width: 312px) {
+  button {
+    width: 55px;
+    height: 55px;
+    font-size: 17.5px;
+    margin: 10px;
+  }
+  #display {
+    font-size: 3rem;
+    padding: 7.5px;
+  }
+  .equal {
+    width: 140px;
+  }
+  .lower {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+  }
 }
