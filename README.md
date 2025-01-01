@@ -4,4 +4,4 @@
 
 =>Calculator project link
 
-[https://calculator-69420.netlify.app/](https://calculator-69420.netlify.app/)
+[https://calculator69420.netlify.app/](https://calculator69420.netlify.app/)
